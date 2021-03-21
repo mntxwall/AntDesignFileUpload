@@ -1,0 +1,12 @@
+
+<div>
+  <nz-upload
+    nzAction="http://192.168.92.129:9100/api/upload"
+    [nzHeaders]="{ authorization: 'authorization-text' }"
+    (nzChange)="handleChange($event)"
+  >
+    <button nz-button><i nz-icon nzType="upload"></i>Click to Upload</button>
+  </nz-upload>
+</div>
+
+
