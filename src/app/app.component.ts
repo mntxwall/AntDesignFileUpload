@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'AntDesignFileUpload';
 
   // tslint:disable-next-line:typedef
+
+  //sample
   handleChange(event) {
 
     console.log(event);
